@@ -15,7 +15,7 @@ vector<string> split(const string &);
  *  2. INTEGER_ARRAY arr
  */
 
-vector<int> rotateLeft(int d, vector<int> arr) {
+vector<int> rotateLeft(int d,const vector<int> &arr) {
     vector<int> tempArr(arr.size());
     for (int i = 0; i < arr.size(); i++)
     {
